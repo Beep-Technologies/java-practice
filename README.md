@@ -17,7 +17,7 @@
    - User Input: Any text input conformant to a sentence structure (demarcated by full stops) **BONUS: Any valid .txt file path**
    - Example
    - Input: `It’s a story about people believing what they want to believe, even when there’s evidence to the contrary. It’s a story about people not being what they seem. And it’s a story, as the movie poster says, "so unbelievable it must be true." Which it is. I know this because the widow in the freezer was, in real life, my Aunt Marge, Mrs. Marjorie Nugent, my mother’s sister and, depending on whom you ask, the meanest woman in East Texas. She was 81 when she was murdered, and Bernie Tiede, her constant companion and rumored paramour, was 38. He’ll be eligible for parole in 2027, when he’ll be 69.`
-   - Output (For 1 Word): [{"keyword": "the", "frequency": 5, "first_time": "It’s a story about people believing what they want to believe, even when there’s evidence to the contrary.", "last_time": "Marjorie Nugent, my mother’s sister and, depending on whom you ask, the meanest woman in East Texas."}].
+   - Output (For 1 Word): [{"keyword": "the", "frequency": 5, "first_time": "It’s a story about people believing what they want to believe, even when there’s evidence to the contrary.", "last_time": "I know this because the widow in the freezer was, in real life, my Aunt Marge, Mrs. Marjorie Nugent, my mother’s sister and, depending on whom you ask, the meanest woman in East Texas."}].
 
 4. Perform a GET request on "https://dev.beepbeep.tech/v1/sample_customer", the data returned from the API should have the structure below. Print the list of promotions sorted by their titles in descending alphabetical order. 
 ```
